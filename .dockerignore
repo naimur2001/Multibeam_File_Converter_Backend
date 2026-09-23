@@ -1,0 +1,9 @@
+node_modules
+npm-debug.log
+.env
+data
+*.all
+*.las
+*.xyz
+*.mb59
+.DS_Store
