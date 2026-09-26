@@ -229,3 +229,24 @@ backend/
 3. This document now perfectly matches the code you have written and the Dockerfile you built.
 
 **Are you ready to move on to the Next.js Frontend now?**
+
+
+📡 API Reference
+Base URL: http://localhost:4000/api/v1
+
+📋 API List Overview
+Method
+Endpoint
+Purpose
+GET
+/health
+Checks if the server and conversion tools are running.
+POST
+/jobs
+Uploads a .all file and starts the conversion process.
+GET
+/jobs/:jobId
+Checks the status/progress of a conversion job.
+GET
+/jobs/:jobId/download
+Downloads the final converted .las file
